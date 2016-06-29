@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Cadastrar Fornecedor"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Sair" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Sair" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Sair">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="70" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" pref="75" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="205" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="NomeContato" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="RazaoSocial" min="-2" max="-2" attributes="0"/>
+                                          <Component id="InscricaoEstadual" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Fornecedor" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="EntradaFornecedor" min="-2" pref="260" max="-2" attributes="0"/>
+                              <Component id="EntradaRazao" min="-2" pref="260" max="-2" attributes="0"/>
+                              <Component id="EntradaNomeContato" min="-2" pref="260" max="-2" attributes="0"/>
+                              <Component id="EntradaInscricao" min="-2" pref="260" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Telefone2" min="-2" max="-2" attributes="0"/>
+                              <Component id="Telefone1" min="-2" max="-2" attributes="0"/>
+                              <Component id="Fax" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Cnpj" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="EntradaFax" alignment="0" max="32767" attributes="0"/>
+                              <Component id="EntradaTelefone1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="EntradaTelefone2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="EntradaCNPJ" min="-2" pref="124" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Fornecedor" min="-2" max="-2" attributes="0"/>
+                              <Component id="EntradaFornecedor" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="RazaoSocial" min="-2" max="-2" attributes="0"/>
+                              <Component id="EntradaRazao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="EntradaNomeContato" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="NomeContato" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="InscricaoEstadual" min="-2" max="-2" attributes="0"/>
+                              <Component id="EntradaInscricao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="EntradaTelefone1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="Telefone1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="EntradaTelefone2" min="-2" max="-2" attributes="0"/>
+                              <Component id="Telefone2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="EntradaFax" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="Fax" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Cnpj" min="-2" max="-2" attributes="0"/>
+                              <Component id="EntradaCNPJ" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton2" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jButton3" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.TextField" name="EntradaFornecedor">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaFornecedorActionPerformed"/>
+            <EventHandler event="inputMethodTextChanged" listener="java.awt.event.InputMethodListener" parameters="java.awt.event.InputMethodEvent" handler="EntradaFornecedorInputMethodTextChanged"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.TextField" name="EntradaRazao">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaRazaoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.TextField" name="EntradaNomeContato">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaNomeContatoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.TextField" name="EntradaCNPJ">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaCNPJActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.TextField" name="EntradaFax">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaFaxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.TextField" name="EntradaTelefone2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaTelefone2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.TextField" name="EntradaTelefone1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaTelefone1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="java.awt.Label" name="Fornecedor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fornecedor*"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="RazaoSocial">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Raz&#xe3;o Social*"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="NomeContato">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome do Contato"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="InscricaoEstadual">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Inscri&#xe7;&#xe3;o Estadual*"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="Cnpj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CNPJ*"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="Telefone1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefone 1*"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="Telefone2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefone 2"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="Fax">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="FAX"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Endereco" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Cidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Email" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="EntradaCidade" alignment="0" pref="284" max="32767" attributes="0"/>
+                          <Component id="EntradaEndereco" alignment="0" max="32767" attributes="0"/>
+                          <Component id="EntradaEmail" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Bairro" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EntradaBairro" min="-2" pref="116" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EntradaCEP" min="-2" pref="106" max="-2" attributes="0"/>
+                                  <Component id="Cep" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="UF" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EntradaUF" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="EntradaPontoRef" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Obs" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="PontoRef" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="EntradaObs" alignment="0" min="-2" pref="299" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Bairro" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="EntradaBairro" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Cep" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="EntradaCEP" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="UF" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="EntradaUF" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="PontoRef" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="EntradaPontoRef" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="Obs" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              <Component id="EntradaObs" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Endereco" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="EntradaEndereco" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Cidade" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="EntradaCidade" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="Email" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              <Component id="EntradaEmail" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.TextField" name="EntradaBairro">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaBairroActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.TextField" name="EntradaCEP">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaCEPActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.Label" name="Endereco">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Endere&#xe7;o*"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="Bairro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bairro*"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="Cep">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CEP*"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="EntradaCidade">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaCidadeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.TextField" name="EntradaUF">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaUFActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.TextField" name="EntradaPontoRef">
+            </Component>
+            <Component class="java.awt.Label" name="Cidade">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cidade*"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="UF">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="UF*"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="PontoRef">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ponto de Refer&#xea;ncia"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="EntradaEmail">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaEmailActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="java.awt.TextArea" name="EntradaObs">
+            </Component>
+            <Component class="java.awt.Label" name="Obs">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Observa&#xe7;&#xf5;es"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Label" name="Email">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="E-mail*"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.TextField" name="EntradaEndereco">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaEnderecoActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="java.awt.TextField" name="EntradaInscricao">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EntradaInscricaoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Incluir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Desfazer"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sair"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
